@@ -1,0 +1,120 @@
+*{
+   margin: 0;
+   padding:0; 
+}
+.main{
+    width:100%;
+    background-color: rgb(0, 255, 123);
+    background-position: center;
+    background-size: cover;
+    height:109vh;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(images.jpg);
+}
+.logo{
+    color: rgb(255, 140, 0);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    padding-left: 16px;
+    padding-top: 20px;
+    font-size: 39px;
+}
+ul{
+    width: 450px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+ul li{
+    list-style:none;
+    margin-left: 82px;
+    margin-top: 57px;
+     text-align:left;
+     font-size: 21px;
+     
+     
+}ul li a{
+    text-decoration: none;
+    color:rgb(165, 226, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition:0.4s ease-in-out; 
+
+}
+ul li a:hover{
+    color: #ff7200;
+
+}
+.search{
+    width: 330px;
+    float:left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height:20px;
+    background: transparent;
+    border:1px solid #6600ff;
+    margin-top: 13px;
+    border-right: none;
+    float:left;
+    font-size: 10px;
+    padding: left;
+    
+    }
+    .btn{
+        width:100px;
+        height: 25px;
+        background-color: #ff7200;
+        border: 2px solid #ff7200;
+        margin-top: 13px;
+        color: #ffffff;
+        font-size: 15px;
+        border-bottom-right-radius: 5px;
+        border-bottom-right-radius:5px;
+    
+    }
+    .btn:focus{
+        outline: none;
+    }
+    .srch:focus{
+        outline: none;
+    }
+    .form{
+        width:300px;
+        height:300px;
+        background-color: aqua;
+        position:absolute;
+        top:-20px;
+        left: 1200px;
+        border-radius: 10px;
+        padding: 25px;
+    }
+    form h2{
+        width:220px;
+        font-family: sans-serif;
+        text-align:center;
+        background-color: #ff7200;
+        font-size: 22px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin:2px;
+        padding: 8px;
+    
+    }
+    form input{
+        width: 240px;
+        height:35px;
+        background: transparent;
+        border-bottom: 1px solid #ff7200;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-color: #fff;
+        font-size:15px;
+        letter-spacing: 1px;
+        margin-top:30px;
+        font-family: sans-serif;
+    
+    }
